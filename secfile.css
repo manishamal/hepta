@@ -1,7 +1,16 @@
 body{
   margin:0;
   font-family: 'Abril Fatface', cursive;
-
+}
+.container {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 24px;
+}
+.container1 {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 24px;
 }
 .is-family-primary {
   font-family: 'Mukta Malar', sans-serif;
@@ -11,9 +20,15 @@ body{
   background-size: cover;
   background-position: center center;
 }
-.flex-container{
+.flex-container {
     background: rgba(0, 0, 0, 0.2);
     padding: 15rem 1.5rem;
+}
+.has-margin-top {
+  margin-top: 0px;
+}
+.has-margin-bottem {
+  margin-bottom: 0px;
 }
 
 
@@ -38,7 +53,7 @@ body{
 }
 
 .font-size-large {
-  font-size: 30px;
+  font-size: 32px;
 }
 .font-size-big {
   font-size: 28px;
@@ -89,10 +104,35 @@ body{
   line-height: 8;
 }
 
-.flex-container {
-
-
+button:hover {
+  background-color: white;
+  color:black
+}
+.textone:hover {
+  color: rgba(255, 255, 255, 0.5);
 }
 .has-text-center {
   text-align: center;
 }
+.flex {
+  display: flex;
+}
+
+.button {
+  letter-spacing: .2rem;
+    border-width: 4px;
+    padding: 16px 30px;
+    border-color: white;
+    border-radius: 4px;
+}
+.pointer {
+  cursor: pointer;
+}
+.width {
+  width: 600px;
+}
+.margin {
+  margin-left: 4rem;
+    margin-top: 10rem;
+}
+
