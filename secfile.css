@@ -128,11 +128,69 @@ button:hover {
 .pointer {
   cursor: pointer;
 }
-.width {
-  width: 600px;
+.is-fullwidth {
+  width: 100%;
+}
+.width1 {
+  width: 70px;
 }
 .margin {
   margin-left: 4rem;
     margin-top: 10rem;
 }
+
+.is-4 {
+  width: 25%;
+  font-size: large;
+  }
+
+  .is-3 {
+    width: 32%;
+  }
+  .text-color {
+    color: #6c757d;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  .has-justify-content-center {
+    justify-content: center;
+  }
+.is-flex-50 {
+  width: 50%;
+}
+.hero-section {
+  padding :3rem 3rem;
+}
+
+.columns{
+  display:inherit;
+  align-items: center;
+}
+@media screen and (min-width: 769px){
+  .columns {
+    display: flex !important;
+  }
+}
+
+.column {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 1.5rem;
+}
+.image-is-fullwidth {
+  width:100%;
+}
+
+
 
