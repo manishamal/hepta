@@ -11,6 +11,10 @@ body{
 .is-family-primary {
   font-family: 'Mukta Malar', sans-serif;
 }
+.is-font-style {
+  font-style: italic;
+}
+
 .section {
   background-image: url("/images/hero_1.jpg");
   background-size: cover;
@@ -64,6 +68,9 @@ body{
 .font-weight-large {
   font-weight:500;
 }
+.font-weight-large1 {
+  font-weight:700;
+}
 .font-weight-medium {
   font-weight: 300 !important;
 }
@@ -95,6 +102,9 @@ body{
 
 .margin {
   margin: 0px;
+}
+.card-image {
+  margin-bottom: -4px !important
 }
 .margin-left {
   margin: 0px;
@@ -194,6 +204,14 @@ button:hover {
 .is-padding {
   padding: 15px;
 }
+.is-padding-combine {
+  padding: 2px 16px;
+}
+.images {
+  width: 70px;
+    border-radius: 50%;
+}
+
 
 
 
